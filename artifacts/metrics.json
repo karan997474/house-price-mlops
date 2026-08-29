@@ -1,0 +1,24 @@
+{
+    "best_model": "RandomForestRegressor",
+    "training_rows": 1163,
+    "test_rows": 291,
+    "features": [
+        "area",
+        "bedrooms",
+        "age"
+    ],
+    "models": {
+        "LinearRegression": {
+            "mae": 28262.602632759146,
+            "mse": 1508231195.8197913,
+            "rmse": 38835.95236143684,
+            "r2_score": 0.7182957385478554
+        },
+        "RandomForestRegressor": {
+            "mae": 25021.796322042217,
+            "mse": 1279666015.6153617,
+            "rmse": 35772.41976181317,
+            "r2_score": 0.7609866638261695
+        }
+    }
+}
